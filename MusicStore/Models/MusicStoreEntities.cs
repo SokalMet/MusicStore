@@ -10,7 +10,6 @@ namespace MusicStore.Models
     {
         public DbSet<Album> Albums { get; set; }
         public DbSet<Genre> Genres { get; set; }
-
-        public System.Data.Entity.DbSet<MusicStore.Models.Artist> Artists { get; set; }
+        public DbSet<Artist> Artists { get; set; }
     }
 }
